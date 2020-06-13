@@ -1,4 +1,8 @@
-# Recherche
+---
+layout: page
+title: Recherche
+permalink: /recherche/
+---
 
 Œuvre littéraire tout autant que graphique, *l’Architecture...* de Ledoux, rédigé dans un « style figuré », au propos volontairement hermétique et à l’ambition esthétique et philosophique inégalée dans la littérature d’architecture, suscite la fascination depuis le milieu du vingtième siècle. Resté longtemps négligé, il a fait l’objet, depuis une trentaine d’années, d’études ponctuelles qui se sont efforcées de lui redonner toute sa place parmi la production artistique, littéraire et philosophique de l’époque du tournant des Lumières, en en suggérant surtout la richesse inépuisable et le caractère "hiéroglyphique" (Rabreau, 1995). L’illustration de l’ouvrage, mieux connue, est remarquable par l’ambition et la qualité de sa gravure. Ledoux travailla durant trente années à l’illustration de l’ensemble des cinq tomes initialement projetés (sont un seul parut), ce dont témoigne les deux autres volumes édités par l’architecte Ramée en 1847, et un important recueil factice conservé à la BHVP aujourd’hui numérisé, ainsi que diverses planches isolées souvent restées inédites.
 

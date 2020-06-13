@@ -1,4 +1,8 @@
-# Équipe de recherche
+---
+layout: page
+title: Équipe
+permalink: /equipe/
+---
 
 ## Responsables du projet
 
