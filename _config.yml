@@ -32,7 +32,6 @@ plugins:
 
 # menu
 header_pages:
-  - index.md
   - recherche.md
   - equipe.md
 # Exclude from processing.
