@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  « Ledoux écrivain : Bilan et perspectives"
+title:  "Ledoux écrivain : Bilan et perspectives"
 date:   2020-06-14
 categories: articles
 ---

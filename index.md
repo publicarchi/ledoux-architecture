@@ -4,9 +4,9 @@
 layout: home
 list_title: "Actualités du projet"
 ---
-# Architecture, littérature, philosophie et société au tournant des Lumières
+# Architecture, littérature, <br/>philosophie et société <br/>au tournant des Lumières
 
-## *L’Architecture considérée sous le rapport de l’Art des mœurs et de la législation* <br/>de Claude-Nicolas Ledoux, <br/>une édition numérique
+## *L’Architecture considérée sous le rapport de l’Art des mœurs <br/>et de la législation* <br/>de Claude-Nicolas Ledoux, <br/>une édition numérique
 
 *L’Architecture considérée sous le rapport de l’Art des mœurs et de la législation* de Claude-Nicolas Ledoux est l’ouvrage à la fois le plus célèbre et le plus énigmatique de toute l’architecture moderne européenne. Or, il n’a jamais encore fait l’objet d’une véritable édition scientifique. Il s’agit donc de restituer le travail inachevé de Ledoux, pour donner à voir et à imaginer son grand ouvrage, permettre d’en mieux saisir la démarche à la fois didactique, philosophique et poétique, afin de mieux comprendre la pensée profonde et complexe de Ledoux sur le rôle de l’architecture dans la société, tant de l’Ancien Régime que pour la nouvelle République – toute une conception politique et sociale de l’architecture qui entretient de nombreux échos avec les enjeux contemporains.
 
