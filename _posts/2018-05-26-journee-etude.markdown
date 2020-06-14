@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Autour de Ledoux"
+title:  "Journée d’étude *Autour de Ledoux*"
 date:   2018-05-26 21:11:06 -0400
-categories: jekyll update
+list_title: "Actualités du projet"
+categories: actualités
 ---
 L’ARCHITECTE, LE LIVRE ET L’ÉCRIVAIN AU TOURNANT DES LUMIÈRES
 =============================================================

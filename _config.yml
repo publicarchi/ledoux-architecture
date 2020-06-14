@@ -34,7 +34,7 @@ plugins:
 header_pages:
   - recherche.md
   - equipe.md
-list_title: "Actualités du projet"
+
 # rss
 rss: rss
 
