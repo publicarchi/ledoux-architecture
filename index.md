@@ -1,8 +1,9 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: # Architecture, littérature, philosophie et société au tournant des Lumières : <br/>*L’Architecture considérée sous le rapport de l’Art des mœurs et de la législation* de Claude-Nicolas Ledoux, une édition numérique
+title: Architecture, littérature, philosophie et société au tournant des Lumières : *L’Architecture considérée sous le rapport de l’Art des mœurs et de la législation* de Claude-Nicolas Ledoux, une édition numérique
 layout: home
+list_title: "Actualités du projet"
 ---
 
 
