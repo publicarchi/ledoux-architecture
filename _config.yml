@@ -35,8 +35,12 @@ header_pages:
   - recherche.md
   - equipe.md
 
-# posts
-posts: Actualités du projet
+# rss
+rss: rss
+
+# analytics
+google_analytics: UA-169387941-1
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
