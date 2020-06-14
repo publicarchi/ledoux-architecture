@@ -16,29 +16,29 @@ permalink: /equipe/
 
 La composition de l’équipe Annotateurs associe des spécialistes issus des diverses disciplines concernées par la recherche. La liste ci-dessous comprend les chercheurs ayant déjà confirmé leur participation et leur intérêt pour le projet.
 
--   **Daniel Rabreau**, histoire des arts et de l’architecture au XVIII^e^ siècle, professeur émérite, Panthéon-Sorbonne
+-   **Daniel Rabreau**, histoire des arts et de l’architecture au XVIII<sup>e</sup> siècle, professeur émérite, Panthéon-Sorbonne
 
 -   **Michel Delon**, littérature et histoire des idées au siècle des Lumières, professeur émérite, Sorbonne Université
 
--   **Stéphane Pujol**, littérature et philosophie au XVIII^e^ siècle, professeur, Université Toulouse -- Jean-Jaurès
+-   **Stéphane Pujol**, littérature et philosophie au XVIII<sup>e</sup> siècle, professeur, Université Toulouse -- Jean-Jaurès
 
--   **Arnaud Skornicki**, histoire du droit, de l’administration et des idées politiques au XVIII^e^ siècle, maître de conférences, Université Paris-Nanterre, Institut des sciences du politique
+-   **Arnaud Skornicki**, histoire du droit, de l’administration et des idées politiques au XVIII<sup>e</sup> siècle, maître de conférences, Université Paris-Nanterre, Institut des sciences du politique
 
--   **Marie-Luce Pujalte-Fraysse**, histoire de l’architecture au XVIII^e^ siècle, maîtresse de conférences, Université de Poitiers, Criham
+-   **Marie-Luce Pujalte-Fraysse**, histoire de l’architecture au XVIII<sup>e</sup> siècle, maîtresse de conférences, Université de Poitiers, Criham
 
--   **Richard Wittmann**, histoire de l’architecture aux XVIII^e^ et XIX^e^ siècles, professeur associé, Université de Santa Barbara
+-   **Richard Wittmann**, histoire de l’architecture aux XVIII<sup>e</sup> et XIX<sup>e</sup> siècles, professeur associé, Université de Santa Barbara
 
--   **Emmanuel Chateau-Dutier**, histoire de l’architecture de la Révolution au milieu du XIX^e^ siècle, Humanités numériques, Université de Montréal, Centre de recherche interuniversitaire sur les Humanités numériques
+-   **Emmanuel Chateau-Dutier**, histoire de l’architecture de la Révolution au milieu du XIX<sup>e</sup> siècle, Humanités numériques, Université de Montréal, Centre de recherche interuniversitaire sur les Humanités numériques
 
 -   **Hugues Marchal**, littérature moderne française, dialogue littérature et sciences, professeur assistant, Université de Bâle, membre honoraire de l’Institut universitaire de France
 
--   **Elise Pavy-Guibert,** littérature française du XVIII^e^ siècle, université de Bordeaux - Montaigne.
+-   **Elise Pavy-Guibert,** littérature française du XVIII<sup>e</sup> siècle, université de Bordeaux - Montaigne.
 
 -   **Vicenzo De Santis,** littérature et théâtre des Lumières et sous l’Empire, Universita degli studi di Salerno
 
--   **Christina Constandriopoulos**, histoire de l’architecture aux XVIII^e^ et XIX^e^ siècle, professeure associée, UQUAM, Montréal
+-   **Christina Constandriopoulos**, histoire de l’architecture aux XVIII<sup>e</sup> et XIX<sup>e</sup> siècle, professeure associée, UQUAM, Montréal
 
--   **Christopher Drew Armstrong**, histoire de l’architecture du XVIII^e^ siècle, prosopographie des architectes, professeur associé, Université de Pittsburgh
+-   **Christopher Drew Armstrong**, histoire de l’architecture du XVIII<sup>e</sup> siècle, prosopographie des architectes, professeur associé, Université de Pittsburgh
 
 ## Composition du Comité de projet
 

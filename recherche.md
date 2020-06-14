@@ -40,7 +40,7 @@ Les partenariats initiés avec diverses bibliothèques permettront de poursuivre
 
 -   d’un exemplaire Ramée de très belle qualité, par la Bibliothèque des Arts décoratifs,
 
--   d’un recueil factice composé au XVIII^e^ siècle qui contient de nombreux états inédits de la gravure, par la Bibliothèque de l’Institut national d’histoire de l’art
+-   d’un recueil factice composé au XVIII<sup>e</sup> siècle qui contient de nombreux états inédits de la gravure, par la Bibliothèque de l’Institut national d’histoire de l’art
 
 -   ainsi que celles de témoins dispersés, dans les fonds de la Bibliothèque nationale en particulier, voire de plusieurs planches de l’exemplaire Ramée conservé à la réserve du Cabinet des Estampes et de la Photographie
 
@@ -136,7 +136,7 @@ Tout au long du projet, le travail collaboratif de l’équipe scientifique, coo
 
 Les problématiques soulevées par le travail collectif d’édition du texte, ainsi que par le travail du doctorant sur l’illustration et la gravure d’architecture pourront être réinvesties dans le cadre des formations de master.
 
-La première année, deux **séminaires en histoire de l’art et en littérature** seront consacrés au travail conduit dans le cadre du projet, puis chaque année alternativement dans chacunes des disciplines. En histoire de l’art, un nouveau séminaire, déjà créé dans la maquette LMD4, aura pour thème *L’édition numérique de* L’Architecture *de Ledoux* en poursuivant trois objectifs : introduire la question du livre et de l’illustration d’architecture, étudier de manière pluridisciplinaire un texte qui offre une synthèse de la pensée des Lumières, proposer une initiation aux problématiques et aux enjeux de cette édition numérique. En littérature, dans le cadre du séminaire de littérature du XVIIIe siècle (M1), les étudiants travailleront, notamment à partir des enjeux du livre de Ledoux, sur les liens entre fiction, architecture et utopie/u-chronie au XVIII^e^ siècle.
+La première année, deux **séminaires en histoire de l’art et en littérature** seront consacrés au travail conduit dans le cadre du projet, puis chaque année alternativement dans chacunes des disciplines. En histoire de l’art, un nouveau séminaire, déjà créé dans la maquette LMD4, aura pour thème *L’édition numérique de* L’Architecture *de Ledoux* en poursuivant trois objectifs : introduire la question du livre et de l’illustration d’architecture, étudier de manière pluridisciplinaire un texte qui offre une synthèse de la pensée des Lumières, proposer une initiation aux problématiques et aux enjeux de cette édition numérique. En littérature, dans le cadre du séminaire de littérature du XVIIIe siècle (M1), les étudiants travailleront, notamment à partir des enjeux du livre de Ledoux, sur les liens entre fiction, architecture et utopie/u-chronie au XVIII<sup>e</sup> siècle.
 
 La seconde année, le séminaire de littérature, intitulé « Rédaction culturelle» (M1/S2), proposera aux étudiants de réfléchir, à partir des planches et du texte de Ledoux, sur la description d’architecture, le lien du texte à l’image, l’écriture de l’utopie et de l’u-chronie. Ils seront invités à produire à rédiger les notices "manquantes" adossées aux planches inédites de Ledoux. Ces travaux qui pourront être aussi l’occasion d’évaluer la pertinence et la faisabilité, à mi parcours du projet, de la création d’un éventuel contrat doctoral en recherche-création autour des questions d’écriture de l’architecture, de l’utopie et de la futurologie, en lien avec l’EUR ArTec.
 
