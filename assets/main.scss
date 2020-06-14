@@ -53,7 +53,7 @@ h1 {
   font-size: 2.2222em; /* 40px */
   line-height: 1.3500; /* 54px */
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
   text-align: center;
 }
 
@@ -63,17 +63,18 @@ h2 {
   margin-top: auto;
   margin-bottom: calc( var(--baseline) * 1rem);
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
+  text-align: center;
 }
 
-h2::before {
+/* h2::before {
   content: '';
   display: block;
   // height: 100%;
   width: 100%;
   border-bottom: calc( var(--baseline) * 0.2rem) solid ;
   margin-bottom: calc( var(--baseline) * 0.8rem);
-}
+} */
 
 h3 {
   font-size: 1.334em; /* 18 * 1.334em = 24px */
@@ -119,4 +120,11 @@ sup {
 
 sup.note {
   font-size: 0.7em;
+}
+
+.site-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
 }
