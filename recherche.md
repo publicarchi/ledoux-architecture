@@ -190,8 +190,8 @@ Le choix de modèles bien documentés et de solutions techniques standardisées 
 
 #### 2020
 
-- 1^er^ avril 2020 : **début du projet**
-- 1^er^ avril 2020 : livraison des premiers contenus éditoriaux pour la Saline royale
+- 1<sup>er</sup> avril 2020 : **début du projet**
+- 1<sup>er</sup> avril 2020 : livraison des premiers contenus éditoriaux pour la Saline royale
 - 25 mai 2020 : réunion à Nanterre de l’équipe scientifique et du Comité de projet\
   Matin, réunion inaugurale de l’équipe scientifique et du Comité de projet : présentation du projet Ledoux, des enjeux de l’édition numérique et de la nouvelle muséologie de la Saline royale.\
   Après-midi, réunion de l’équipe scientifique : méthodologie de l’édition numérique et présentation de l’outil collaboratif d’annotation.
@@ -200,7 +200,7 @@ Le choix de modèles bien documentés et de solutions techniques standardisées 
 - septembre 2020 : début du contrat doctoral (3 ans)
 - octobre 2020 : réunion de l’équipe annotateurs et du Comité de projet (Nanterre) :\
   bilan à mi-parcours de l’année 1
-- Fin 2^nd^ sem 2020 : version 1.5 du contenu des tablettes d’aide à la visite immersive de la Saline royale
+- Fin 2<sup>nd</sup> sem 2020 : version 1.5 du contenu des tablettes d’aide à la visite immersive de la Saline royale
 - novembre 2020 : webminaire
 - décembre 2020 : webminaire
 
@@ -235,4 +235,4 @@ Le choix de modèles bien documentés et de solutions techniques standardisées 
     **& présentation publique de l’édition numérique**
 -   décembre 2022 : webminaire consacré aux actes
 -   déc à février 2023 : édition des actes du colloque ; version abrégée de *L’Architecture*
--   1^er^ mars 2023 : **fin du projet**
+-   1<sup>er</sup> mars 2023 : **fin du projet**

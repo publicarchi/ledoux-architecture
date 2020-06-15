@@ -120,12 +120,9 @@ posent la lecture du texte de Ledoux.
         par la projection de l’imagination, d’un autre côté les outils
         désuets de la rhétorique classique, de l’éloquence de collège.
 
-      - Une contradiction qu’elle retrouve, à un autre niveau, entre
-        les multiples discours que l’architecte, selon elle,
-        tenterait, avec difficulté, de faire tenir ensemble. Elle
-        souligne ainsi la “situation inconfortable de l’écrivain qui
-        ne cesse de changer de plan … qui oscille entre plusieurs
-        types de discours assez difficilement conciliables”...
+      - Une contradiction qu’elle retrouve, à un autre niveau, entre les multiples discours que l’architecte, selon elle,
+        tenterait, avec difficulté, de faire tenir ensemble. Elle souligne ainsi la “situation inconfortable de l’écrivain qui
+        ne cesse de changer de plan … qui oscille entre plusieurs types de discours assez difficilement conciliables”...
 
 ### Le sens et l’unité du style de Ledoux : un chapitre de Daniel Rabreau : “Ledoux écrivain” (2000)
 
