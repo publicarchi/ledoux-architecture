@@ -20,10 +20,10 @@
 
 title: L’Architecture de Ledoux
 email: contact@ledoux-architecture.fr
-description: "Architecture, littérature, philosophie et société au tournant des Lumières. L’Architecture considérée sous le rapport de l’Art des mœurs et de la législation de Claude-Nicolas Ledoux, une édition numérique."
+description: "Architecture, littérature, philosophie et société au tournant des Lumières"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ledoux-architecture
+twitter_username: ledouxarchi
 
 # Build settings
 theme: minima

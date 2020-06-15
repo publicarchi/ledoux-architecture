@@ -127,7 +127,7 @@ posent la lecture du texte de Ledoux.
         ne cesse de changer de plan … qui oscille entre plusieurs
         types de discours assez difficilement conciliables”...
 
-### Le sens et l’unité du style de Ledoux : un chapitre de Daniel Rabreau: “Ledoux écrivain” (2000)
+### Le sens et l’unité du style de Ledoux : un chapitre de Daniel Rabreau : “Ledoux écrivain” (2000)
 
 Dans sa grande monographie sur Ledoux\[1\], Daniel Rabreau consacre un
 chapitre conclusif au livre de 1804. Une partie de ce chapitre (qu’il
@@ -275,33 +275,38 @@ mesure ces tensions interrogent-elles la question complexe de l’utopie
 
 - Moulin, Fabrice, « Bâtir à l’antique ou écrire à l’antique. La
   présentation du théâtre de Besançon dans *L’Architecture
-  considérée... *de C. N. Ledoux », *Les Arts du spectacle et la
-  référence antique*, Paris, Classiques Garnier, coll. "Le dix-huitième
-  siècle", p. 275-288.
+  considérée...* de C. N. Ledoux », *Les Arts du spectacle et la
+  référence antique*, Le dix-huitième
+  siècle, Paris, Classiques Garnier, p. 275-288.
+
 - Moulin, Fabrice, « La ventriloquie de l’architecte: énonciation et
   esthétique dans L’Architecture... de C.-N. Ledoux ». In *Autour de
   Ledoux: architecture, ville et utopie*, édité par Chouquer, Gérard et
   Daumas, Jean-Claude, Presses universitaires de Franche-Comté, 2006.
+
+- Rabreau, Daniel, « De l’art poétique de Ledoux, Sensualisme, images emblématiques et métamorphoses de la pierre », *Les arts des Lumières. Essais sur l’architecture et la peinture en Europe au XVIII<sup>e</sup> siècle*, Annales du centre Ledoux, nouvelle série, 2019, p. 54‑88. Article disponible en ligne : <https://www.ghamu.org/wp-content/uploads/2019/03/D.-Rabreau-De-lart-poétique-de-Ledoux.pdf>
+
 - Turner, Paul V, « Claude-Nicolas Ledoux and the Hypnerotomachia
   Poliphili ». *Text and Image* 14, n<sup>o</sup> 1-2 (1998): 203-14.
 
+  
+
 ---
+
+
 
 1.  Rabreau, Daniel. *Claude-Nicolas Ledoux (1736-1806)*, Bordeaux,
     Librairie de l’architecture et de la ville, 2000.
-
 2.  Vegro, Daniele, « Le voyageur au pays des merveilles. Niveaux de
     fiction dans L’Architecture de Ledoux ». *Les arts des Lumières.
-    Essais sur l’architecture et la peinture en Europe au XVIIIe s*,
+    Essais sur l’architecture et la peinture en Europe au XVIII<sup>e</sup> siècle*,
     Annales du centre Ledoux, nouvelle série, 2019, p. 54‑88. Article
     disponible en ligne :
     https://www.ghamu.org/wp-content/uploads/2019/03/D.-Vegro-Le-voyageur-au-pays-des-merveilles.pdf
-
 3.  Voir par exemple, Conard, Serge. « Pour une herméneutique de
     l’Architecture... de C.-N. Ledoux », in *Soufflot et
     l’architecture des Lumières (actes du colloque de Lyon, juin
     1980)*, Paris, 1980/
-
 4.  « Autour de Ledoux : l’architecte, le livre et l’écrivain au
     tournant des lumières » – Journée d’étude de la Vallée-aux-Loups,
     Maison de Chateaubriand (Châtenay-Malabry) – 3 juillet 2018 (org.
