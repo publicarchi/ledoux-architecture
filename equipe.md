@@ -7,10 +7,10 @@ permalink: /equipe/
 ## Responsables du projet
 
 -   Dominique Massounie 
-    (Histoire des arts et des représentations -- EA 4414, Université Paris Nanterre)
+    (Histoire des arts et des représentations – EA 4414, Université Paris Nanterre)
 
 -   Fabrice Moulin 
-    (Centre des Sciences des Littératures en Langue Française -- EA 1586, Université Paris Nanterre)
+    (Centre des Sciences des Littératures en Langue Française – EA 1586, Université Paris Nanterre)
 
 ## Composition de l’équipe des annotateurs
 
@@ -20,7 +20,7 @@ La composition de l’équipe Annotateurs associe des spécialistes issus des di
 
 -   **Michel Delon**, littérature et histoire des idées au siècle des Lumières, professeur émérite, Sorbonne Université
 
--   **Stéphane Pujol**, littérature et philosophie au XVIII<sup>e</sup> siècle, professeur, Université Toulouse -- Jean-Jaurès
+-   **Stéphane Pujol**, littérature et philosophie au XVIII<sup>e</sup> siècle, professeur, Université Toulouse – Jean-Jaurès
 
 -   **Arnaud Skornicki**, histoire du droit, de l’administration et des idées politiques au XVIII<sup>e</sup> siècle, maître de conférences, Université Paris-Nanterre, Institut des sciences du politique
 
@@ -42,12 +42,12 @@ La composition de l’équipe Annotateurs associe des spécialistes issus des di
 
 ## Composition du Comité de projet
 
--   Julien Schuh, directeur adjoint du Centre des Sciences des Littératures en Langue Française -- EA 1586
--   Colas Duflo, professeur, Centre des Sciences des Littératures en Langue Française -- EA 1586, directeur de l’axe Litt&Phi
--   Fabrice Moulin, maître de conférences, Centre des Sciences des Littératures en Langue Française -- EA 1586
--   Pierre Hyppolite, maître de conférences, responsable de l’équipe "Littérature et architecture" au sein de l’axe ILAM du Centre des Sciences des Littératures en Langue Française -- EA 1586
--   Marianne Cojannot-Le Blanc, directrice de la composante H-Mod, Histoire de l’art et des représentations -- EA 4414
--   Dominique Massounie, maîtresse de conférences, responsable du projet , Histoire de l’art et des représentations -- EA 4414
+-   Julien Schuh, directeur adjoint du Centre des Sciences des Littératures en Langue Française – EA 1586
+-   Colas Duflo, professeur, Centre des Sciences des Littératures en Langue Française – EA 1586, directeur de l’axe Litt&Phi
+-   Fabrice Moulin, maître de conférences, Centre des Sciences des Littératures en Langue Française – EA 1586
+-   Pierre Hyppolite, maître de conférences, responsable de l’équipe "Littérature et architecture" au sein de l’axe ILAM du Centre des Sciences des Littératures en Langue Française – EA 1586
+-   Marianne Cojannot-Le Blanc, directrice de la composante H-Mod, Histoire de l’art et des représentations – EA 4414
+-   Dominique Massounie, maîtresse de conférences, responsable du projet , Histoire de l’art et des représentations – EA 4414
 -   Isabelle Sallé, directrice Culture et Patrimoine, EPCC Saline royale d’Arc-et-Senans
 -   Stéphanie Rivoire, directrice, Bibliothèques des arts décoratifs
 -   Corinne Le Bitouzé, conservatrice, directrice adjointe du département des Estampes et la Photographie, BnF
@@ -55,9 +55,9 @@ La composition de l’équipe Annotateurs associe des spécialistes issus des di
 
 ## Partenaires impliqués
 
-- ***Le laboratoire HAR***, Histoire de l’art et des représentations, université Nanterre, - UMR 4414
-- ***Le laboratoire CSLF,*** Centre des Sciences des Littératures en Langue Française - EA 1586
-- ***Établissement public de coopération culturelle de la Saline royale d’Arc-et-Senans***, Conseil départemental du Doubs
-- ***Bibliothèque des arts décoratifs****, Paris*
-- ***La Bibliothèque nationale de France***, Département des Estampes et de la photographie
-- ***Institut national d’histoire de l’art (INHA)***, Département de la Bibliothèque et de la Documentation, Service du patrimoine
+- *Le laboratoire HAR*, Histoire de l’art et des représentations, université Nanterre, - UMR 4414
+- *Le laboratoire CSLF,** Centre des Sciences des Littératures en Langue Française - EA 1586
+- *Établissement public de coopération culturelle de la Saline royale d’Arc-et-Senans*, Conseil départemental du Doubs
+- *Bibliothèque des arts décoratifs*, Paris
+- *La Bibliothèque nationale de France*, Département des Estampes et de la photographie
+- *Institut national d’histoire de l’art (INHA)*, Département de la Bibliothèque et de la Documentation, Service du patrimoine
