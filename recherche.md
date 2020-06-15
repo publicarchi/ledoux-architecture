@@ -28,7 +28,7 @@ La commande d’une usine royale justifia sans doute qu’avant même d’avoir 
 
 La publication de l’ouvrage dont l’architecte préparait l’illustration depuis la décennie 1770 demeure en effet inachevée. Un prospectus, diffusé au début de l’année 1803, annonce le plan de cette luxueuse et colossale publication telle que Ledoux l’imaginait : cinq volumes, composés en une savante mise en scène. La pentalogie devait s’ouvrir et se refermer par des monographies consacrées respectivement à deux gigantesques commandes publiques: à savoir la Saline et la ville idéale de Chaux, prolongée par le théâtre de Besançon d’une part (ce fut le seul volume paru), et aux Propylées de Paris, son oeuvre la plus imposante, d’autre part. Entre ces deux piliers du portique, trois volumes devaient présenter les innombrables chantiers et projets de Ledoux, tant privés (hôtels, maisons de ville, de campagne...) que publics (prisons, marchés, bains...). Les planches destinées à illustrer ces trois autres volumes m’ont jamais été toutes rassemblées : elles sont contenues d’une part dans *L’Architecture de Claude-Nicolas Ledoux*, publiée en 1847 par l’architecte Daniel Ramée, et, d’autre part, dans un recueil factice conservé à la Bibliothèque historique de la Ville de Paris (en ligne sur le site de la BHVP), mais aussi dans trois autres recueils, dont l’un est conservé à la Bibliothèque de l’Institut national d’histoire de l’art (INHA). Il existe enfin quelques planches dispersées dont la location reste à ce jour inconnue. Quelques écrits, à l’état de manuscrits, notamment ceux consacrés aux Propylées (Londres et Paris, Archives nationales), peuvent également être considérés comme préparatoires à la publication des volumes II à V.
 
-## Problématiques de recherche: 
+## Problématiques de recherche
 
 ### Les planches : recensement et étude de l’œuvre gravé
 
@@ -46,7 +46,7 @@ Les partenariats initiés avec diverses bibliothèques permettront de poursuivre
 
 La problématique générale de recherche propre à l’étude de l’illustration et de la fabrication du livre (étude de la gravure, prosopographie des graveurs, histoire du livre d’architecture, chronologie du projet éditorial...) sera élaborée par le jeune chercheur avec l’aide de l’équipe scientifique. 
 
-### Un texte "hiéroglyphe"
+### Un texte “hiéroglyphe”
 
 La densité de l’écriture de Ledoux, et l’épaisseur de ses strates de sens, à l’image de la conception ambitieuse de l’artiste, semblent appeler d’elles-mêmes le principe d’une collaboration scientifique pluri-disciplinaire. Dans ce travail d’élucidation, qui permettra de rendre le texte intelligible pour le lecteur d’aujourd’hui, l’équipe d’annotateurs que nous constituons sera à même de rendre compte de l’ensemble des aspects du texte, en particulier des quatre grandes directions de lecture, qui sont autant de problématiques de recherche:
 

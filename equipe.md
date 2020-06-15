@@ -12,7 +12,7 @@ permalink: /equipe/
 -   Fabrice Moulin 
     (Centre des Sciences des Littératures en Langue Française – EA 1586, Université Paris Nanterre)
 
-## Composition de l’équipe des annotateurs
+## Composition <br/>de l’équipe des annotateurs
 
 La composition de l’équipe Annotateurs associe des spécialistes issus des diverses disciplines concernées par la recherche. La liste ci-dessous comprend les chercheurs ayant déjà confirmé leur participation et leur intérêt pour le projet.
 
@@ -40,7 +40,7 @@ La composition de l’équipe Annotateurs associe des spécialistes issus des di
 
 -   **Christopher Drew Armstrong**, histoire de l’architecture du XVIII<sup>e</sup> siècle, prosopographie des architectes, professeur associé, Université de Pittsburgh
 
-## Composition du Comité de projet
+## Composition <br/>du Comité de projet
 
 -   Julien Schuh, directeur adjoint du Centre des Sciences des Littératures en Langue Française – EA 1586
 -   Colas Duflo, professeur, Centre des Sciences des Littératures en Langue Française – EA 1586, directeur de l’axe Litt&Phi
@@ -55,8 +55,8 @@ La composition de l’équipe Annotateurs associe des spécialistes issus des di
 
 ## Partenaires impliqués
 
-- *Le laboratoire HAR*, Histoire de l’art et des représentations, université Nanterre, - UMR 4414
-- *Le laboratoire CSLF,** Centre des Sciences des Littératures en Langue Française - EA 1586
+- *Le laboratoire HAR*, Histoire de l’art et des représentations, université Nanterre, – UMR 4414
+- *Le laboratoire CSLF*, Centre des Sciences des Littératures en Langue Française – EA 1586
 - *Établissement public de coopération culturelle de la Saline royale d’Arc-et-Senans*, Conseil départemental du Doubs
 - *Bibliothèque des arts décoratifs*, Paris
 - *La Bibliothèque nationale de France*, Département des Estampes et de la photographie
