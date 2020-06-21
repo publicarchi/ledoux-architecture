@@ -7,7 +7,7 @@ categories: actualités
 
 ## Autour de Ledoux. L’Architecte, le livre et l’écrivain au tournant des Lumières
 
-**Journée d’étude Présidée par DANIEL RABREAU,Professeur honoraire, Université Panthéon-Sorbonne**
+**Journée d’étude Présidée par Daniel RABREAU, Professeur honoraire, Université Panthéon-Sorbonne**
 
 Mardi 3 Juillet 2018, Vallée-aux-Loups, Maison de Chateaubriand
 
@@ -20,23 +20,25 @@ croisant les approches de l’histoire de l’art, l’histoire du livre, et l�
 
 - 9h30 – Accueil des participants et du public
 
-- 10h – Kerim SALOM (ENSA Paris-Belleville, IPRAUS),\
- *Influences des théories du langage sur l’architecture à la fin de
+- 10h – Kerim SALOM (ENSA Paris-Belleville, IPRAUS),
+ 
+*Influences des théories du langage sur l’architecture à la fin de
 l’âge classique.*
-
-- 10h30 – Christopher DREW ARMSTRONG (Université de Pittsburgh),\
- *Vers une histoire de l’architecture mondiale au XVIII<sup>e</sup> siècle.*
-
-- 11h – Hugues MARCHAL (Université de Bâle),\
+ 
+- 10h30 – Christopher DREW ARMSTRONG (Université de Pittsburgh),
+ 
+*Vers une histoire de l’architecture mondiale au XVIII<sup>e</sup> siècle.*
+ 
+- 11h – Hugues MARCHAL (Université de Bâle),
  *L’architecte et le poète : la relation entre Ledoux et Delille.*
 
-- 11h30 – Vincenzo DE SANTIS (Université de Bari),\
+- 11h30 – Vincenzo DE SANTIS (Université de Bari),
  *Désir de *bienséance* et tentation du *bizarre*. imagerie végétale et
 paysage naturel dans L’architecture.*
 
 Chaque communication sera suivie d’une discussion
 
-### Après-mid
+### Après-midi
 
 - Table-ronde Genèse, conception et éditions du livre de Ledoux
 
@@ -44,16 +46,16 @@ Chaque communication sera suivie d’une discussion
 
 - Discussion, animée par Daniel RABREAU
 
-[Programme (pdf)](programmeLedoux2018.pdf)
+[Programme (pdf)](/assets/pdf/programmeLedoux2018.pdf)
 
 ## Organisation
 
-Emmanuel CHÂTEAU-DUTIER (Université de Montréal –
-[RAA19](https://raa19.com), GREN),\
- Dominique MASSOUNIE (Université Paris Nanterre –
-[HAR-H-MOD](http://har.u-paris10.fr))\
- & Fabrice MOULIN (Université Paris Nanterre –
-[CSLF](https://cslf.parisnanterre.fr))
+- Emmanuel CHÂTEAU-DUTIER 
+  (Université de Montréal – [RAA19](https://raa19.com), GREN),
+- Dominique MASSOUNIE 
+  (Université Paris Nanterre – [HAR-H-MOD](http://har.u-paris10.fr)),
+- & Fabrice MOULIN 
+  (Université Paris Nanterre – [CSLF](https://cslf.parisnanterre.fr))
 
 ## Se rendre à LA VALLÉE-AUX-LOUPS
 

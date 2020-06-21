@@ -26,7 +26,7 @@ La composition de l’équipe Annotateurs associe des spécialistes issus des di
 
 -   **Marie-Luce Pujalte-Fraysse**, histoire de l’architecture au XVIII<sup>e</sup> siècle, maîtresse de conférences, Université de Poitiers, Criham
 
--   **Richard Wittmann**, histoire de l’architecture aux XVIII<sup>e</sup> et XIX<sup>e</sup> siècles, professeur associé, Université de Santa Barbara
+-   **Richard Wittman**, histoire de l’architecture aux XVIII<sup>e</sup> et XIX<sup>e</sup> siècles, professeur associé, Université de Santa Barbara
 
 -   **Emmanuel Chateau-Dutier**, histoire de l’architecture de la Révolution au milieu du XIX<sup>e</sup> siècle, Humanités numériques, Université de Montréal, Centre de recherche interuniversitaire sur les Humanités numériques
 
