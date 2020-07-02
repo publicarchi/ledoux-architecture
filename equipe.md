@@ -36,9 +36,10 @@ La composition de l’équipe Annotateurs associe des spécialistes issus des di
 
 -   **Vicenzo De Santis,** littérature et théâtre des Lumières et sous l’Empire, Universita degli studi di Salerno
 
--   **Christina Constandriopoulos**, histoire de l’architecture aux XVIII<sup>e</sup> et XIX<sup>e</sup> siècle, professeure associée, UQUAM, Montréal
+-   **Christina Contandriopoulos**, histoire de l’architecture aux XVIII<sup>e</sup> et XIX<sup>e</sup> siècle, professeure associée, UQUAM, Montréal
 
 -   **Christopher Drew Armstrong**, histoire de l’architecture du XVIII<sup>e</sup> siècle, prosopographie des architectes, professeur associé, Université de Pittsburgh
+
 
 ## Composition <br/>du Comité de projet
 
