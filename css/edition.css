@@ -1,0 +1,6 @@
+teiHeader {
+    display: none;
+}
+front, body, back {
+    color: red;
+}
