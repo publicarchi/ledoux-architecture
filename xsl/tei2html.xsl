@@ -12,7 +12,7 @@
     <xsl:template match="TEI">
         <html>
             <head>
-                <link href="../assets/main.scss" rel='stylesheet'/>
+                <link href="../assets/main.css" rel='stylesheet'/>
                 <title><xsl:value-of select="teiHeader/fileDesc/titleStmt/title"/></title>
                 <script src="https://hypothes.is/embed.js" async="async"></script>
             </head>
