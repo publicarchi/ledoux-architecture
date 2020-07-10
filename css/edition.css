@@ -1,6 +1,147 @@
+:root {
+  /* --colorMain: #fdfdfe; */
+  /* --colorSub: #3f51b5; */ /* #E73E0D */
+  /*--colorAccent: #3f51b5; */ /* #E73E0D */
+  --baseline: 1.5; /* 1.5 * 18 = 27px*/
+  font-size: 1.125em; /* 18px */
+  line-height: var(--baseline);
+}
+
 teiHeader {
     display: none;
 }
-front, body, back {
-    color: red;
+
+front, body, back, div, p {
+    display: block;
 }
+
+front, body, back {
+    color: black;
+}
+
+
+
+front {
+    
+    max-width: -webkit-calc(800px - (30px * 2));
+    max-width: calc(800px - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+  /* background-color: var(--colorSub); */
+  /* color: var(--colorMain); */
+    background: #fffef5;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-weight: normal;
+}
+
+titlePage {
+    text-align: center;
+    display: block;
+    margin-bottom: calc( var(--baseline) * 1rem);
+}
+
+titlePart, docAuthor, epigraph, docImprint, docDate {
+    display: block;
+    /*@todo mettre un padding bottom ou margin bottom après chaque bloc pour els séparer*/
+}
+
+titlePart {
+    font-size: 2.2222em;
+    line-height: 1.3500;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+
+docImprint publisher, docImprint placeName {
+    display: block;
+}
+
+div[type=dedicace] { 
+    margin-bottom: calc(var(--baseline) * 1rem);
+    
+}
+
+div[type=dedicace] head {
+    text-align: center;
+    display: block;
+}
+
+signed {
+    display: block;
+    text-align: right;
+}
+
+p {
+    margin-top: auto;
+    margin-bottom: calc(var(--baseline) * 1rem);
+}
+
+foreign {
+    font-style: italic;
+}
+
+/* CHANGEMENT DE PAGE */
+
+fw[type=runningHead] {
+    display: none;
+}
+
+fw[type=pageNum]::before {
+    content: " [";
+}
+
+fw[type=pageNum]::after {
+    content: "] ";
+}
+
+
+lb {
+    display: block;
+}
+
+persName {
+    font-weight: bold;
+}
+
+sic::after {
+    content :" [sic]";
+}
+
+hi[rend=capital] {
+    font-variant: small-caps;
+    /*text-transform: uppercase;*/
+}
+
+/* NOTE */
+
+note::before {
+    content: attr(n);
+    vertical-align :super;
+    font-size: .7em;
+}
+
+note p {
+    display: none;
+}
+
+note:hover p {
+    display: block;
+    position: absolute;
+    background-color: black;
+    color: #fffef5;
+    /*@todo voir avec Emmanuel*/
+}
+
+/* ABREVIATIONS */
+
+abbr {
+    display: none;
+}
+
+expan {
+    display: inline;
+}
+/*@todo voir avec Emmanuel car il y a un espace qui se crée exemple : "Saint -Augustin" */
