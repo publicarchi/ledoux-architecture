@@ -7,7 +7,7 @@
   line-height: var(--baseline);
 }
 
-body {
+main {
   max-width: 47rem;
   margin: auto;
   margin-bottom: calc( var(--baseline) * 3rem);
