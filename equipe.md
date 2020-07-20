@@ -20,6 +20,8 @@ La composition de l’équipe Annotateurs associe des spécialistes issus des di
 
 -   **Michel Delon**, littérature et histoire des idées au siècle des Lumières, professeur émérite, Sorbonne Université
 
+- **Basile Baudez**, histoire de l’architecture au XVIII<sup>e</sup> siècle, Assistant Professor, Princeton University
+ 
 -   **Stéphane Pujol**, littérature et philosophie au XVIII<sup>e</sup> siècle, professeur, Université Toulouse – Jean-Jaurès
 
 -   **Arnaud Skornicki**, histoire du droit, de l’administration et des idées politiques au XVIII<sup>e</sup> siècle, maître de conférences, Université Paris-Nanterre, Institut des sciences du politique
