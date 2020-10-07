@@ -109,7 +109,6 @@
          <change when="2017-06">Création du fichier</change>
       </revisionDesc>
    </teiHeader>
-   
    <text>
       <front>
          <pb facs="#fac01"/>

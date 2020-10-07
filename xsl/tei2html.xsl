@@ -17,7 +17,7 @@
                 <script src="https://hypothes.is/embed.js" async="async"></script>
             </head>
             <body>
-                <xsl:apply-templates select="text/front"/>
+                <xsl:apply-templates select="text/body"/>
             </body>
         </html>
     </xsl:template>
@@ -39,7 +39,7 @@
     
     <xsl:template match="fw[@type='pageNum']">
         <span>
-            <xsl:apply-templates/>
+           <xsl:text>[</xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text>
         </span>
     </xsl:template>
     
