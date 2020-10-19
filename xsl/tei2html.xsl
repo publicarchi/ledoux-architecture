@@ -12,7 +12,7 @@
     <xsl:template match="TEI">
         <html>
             <head>
-                <link href="../assets/main.css" rel='stylesheet'/>
+                <link href="css/edition.css" rel='stylesheet'/>
                 <title><xsl:value-of select="teiHeader/fileDesc/titleStmt/title"/></title>
                 <script src="https://hypothes.is/embed.js" async="async"></script>
             </head>
@@ -68,4 +68,13 @@
     <xsl:template match="lb">
         <br/>
     </xsl:template>
+    
+    <xsl:template match="note">
+        <!-- Affiche les notes entre crochets dans le texte -->
+        <span class="note"><xsl:text>[</xsl:text><xsl:value-of select="@n"/><xsl:text>. </xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text></span>
+    </xsl:template>
+    <xsl:template match="note/p">
+        <span class="noteContent"><xsl:apply-templates/></span>
+    </xsl:template>
+    
 </xsl:stylesheet>
