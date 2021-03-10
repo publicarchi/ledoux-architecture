@@ -130,6 +130,14 @@ p {
   margin-bottom: calc(var(--baseline) * 1rem);
 }
 
+.nota {
+  font-size: smaller;
+}
+
+.nota > h6 {
+  font-weight: bold;
+}
+
 sup {
   vertical-align: middle;
   font-size: smaller;
@@ -137,6 +145,20 @@ sup {
 
 sup.note {
   font-size: 0.7em;
+}
+
+.pageNum {
+  font-weight: lighter;
+  font-size: smaller;
+  color: blue;
+}
+
+.smallCap {
+  font-variant: small-caps;
+}
+
+.capital {
+  text-transform: uppercase;
 }
 
 .site-title {
