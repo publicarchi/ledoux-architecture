@@ -60,7 +60,10 @@
     <xsl:template match="docImprint">
         <h3 class="docImprint"><xsl:value-of select="placeName"/></h3>
         <h3 class="docImprint"><xsl:value-of select="publisher"/></h3>
-        <h3 class="docImprint"><xsl:value-of select="docDate"/></h3>
+    </xsl:template>
+    
+    <xsl:template match="docDate">
+        <h3 class="docImprint"><xsl:apply-templates/></h3>
     </xsl:template>
     
     <xsl:template match="div">
