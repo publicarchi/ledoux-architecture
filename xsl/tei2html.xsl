@@ -69,7 +69,7 @@
         </section>
     </xsl:template>
     
-    <xsl:template match="p | note[@type='nota']/p">
+    <xsl:template match="p">
         <p>
             <xsl:apply-templates/>
         </p>
@@ -80,7 +80,7 @@
     
     <xsl:template match="fw[@type='pageNum']">
         <span class="pageNum">
-           <xsl:text>[</xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text>
+            <xsl:apply-templates/>
         </span>
     </xsl:template>
     
@@ -101,9 +101,9 @@
     </xsl:template>
     
     <xsl:template match="foreign | *[@xml:lang='lat']">
-        <emph class="foreign">
+        <em class="foreign">
             <xsl:apply-templates/>
-        </emph>      
+        </em>      
     </xsl:template>
     
     <xsl:template match="lb">
@@ -136,11 +136,23 @@
     
     <xsl:template match="note">
         <!-- Affiche les notes entre crochets dans le texte -->
-        <span class="note"><xsl:text>[</xsl:text><xsl:value-of select="@n"/><xsl:text>. </xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text></span>
+        <span class="note">
+            <span class="noteLabel">
+                <xsl:choose>
+                    <xsl:when test="matches(@n, '\d')">
+                        <xsl:value-of select="@n"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="@n"/><xsl:text>. </xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </span>
+                <xsl:apply-templates/>
+        </span>
     </xsl:template>
     
     <xsl:template match="note/p">
-        <span class="noteContent"><xsl:apply-templates/></span>
+        <xsl:apply-templates/>
     </xsl:template>
     
     <xsl:template match="note[@type='nota']/label">

@@ -130,8 +130,24 @@ p {
   margin-bottom: calc(var(--baseline) * 1rem);
 }
 
-.nota {
+.pageNum::before {
+  content: "[p. "
+}
+
+.pageNum::after {
+  content: "]"
+}
+
+.nota, .note {
   font-size: smaller;
+}
+
+.note::before {
+  content: ' ['
+}
+
+.note::after {
+  content: '] '
 }
 
 .nota > h6 {
@@ -143,14 +159,10 @@ sup {
   font-size: smaller;
 }
 
-sup.note {
-  font-size: 0.7em;
-}
-
 .pageNum {
   font-weight: lighter;
   font-size: smaller;
-  color: blue;
+  color: #2a7ae2;
 }
 
 .smallCap {
