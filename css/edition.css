@@ -172,6 +172,16 @@ sup {
 .capital {
   text-transform: uppercase;
 }
+p {
+  margin: 0;
+}
+p::before {
+  content: attr(id) ;
+  font-weight: lighter;
+  font-size: smaller;
+  color: #2a7ae2;
+  margin-left: -3em;
+}
 
 /* site title + menus */
 .site-title {
