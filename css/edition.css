@@ -180,7 +180,7 @@ p::before {
   font-weight: lighter;
   font-size: smaller;
   color: #2a7ae2;
-  margin-left: -3em;
+  /* margin-left: -3em */;
 }
 
 /* site title + menus */
