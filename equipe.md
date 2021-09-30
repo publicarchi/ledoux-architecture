@@ -42,9 +42,9 @@ La composition de l’équipe Annotateurs associe des spécialistes issus des di
 
 -   **Christopher Drew Armstrong**, histoire de l’architecture du XVIII<sup>e</sup> siècle, prosopographie des architectes, professeur associé, Université de Pittsburgh
 
-    **Jacques Carré**, civilisation britannique, Professeur émérite, Université Paris-Sorbonne
+-    **Jacques Carré**, civilisation britannique, Professeur émérite, Université Paris-Sorbonne
     
-    **Paul Holmquist**, histoire de l'architecture, professeur associé, université de Louisiane
+ -   **Paul Holmquist**, histoire de l'architecture, professeur associé, université de Louisiane
     
 
 
