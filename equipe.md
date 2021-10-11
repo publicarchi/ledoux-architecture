@@ -44,7 +44,7 @@ La composition de l’équipe Annotateurs associe des spécialistes issus des di
 
 -    **Jacques Carré**, civilisation britannique, Professeur émérite, Université Paris-Sorbonne
     
--   **Paul Holmquist**, histoire de l'architecture, professeur associé, université de Louisiane
+-   **Paul Holmquist**,  histoire d'architecture, Assistant Professor, Louisiana State University
     
 
 
