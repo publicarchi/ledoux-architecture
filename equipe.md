@@ -46,7 +46,12 @@ La composition de l’équipe Annotateurs associe des spécialistes issus des di
     
 -   **Paul Holmquist**,  histoire d'architecture, Assistant Professor, Louisiana State University
     
-
+    **Hélène Parent**,  littérature du tournant des Lumières, post-doctorante, université de Paris Nanterre
+    
+    **Gilles Polizzi**,  littérature française des XVI<sup>e</sup> et XVII<sup>e</sup> siècles , professeur, université de Haute Alsace
+    
+    
+    
 
 ## Composition <br/>du Comité de projet
 
