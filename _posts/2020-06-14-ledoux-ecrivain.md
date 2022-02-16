@@ -1,310 +1,79 @@
 ---
 layout: post
-title:  "Ledoux écrivain : Bilan et perspectives"
-date:   2020-06-14
+title:  "Un modèle de contenu <objet> pour l’histoire de l’art"
+date:   2021-10-26
 categories: articles
 ---
 
-Par *Fabrice Moulin*, texte de travail pour le webminaire du 18 juin 2020
+Par *Emmanuel Chateau-Dutier* et *Caroline Corbières*, texte de la présentation au Colloque annuel de la TEI 2021. Voir aussi le dépôt en ligne [https://github.com/publicarchi/objectModel/](https://github.com/publicarchi/objectModel/)
 
-Les quelques éléments qui suivent n’ont rien d’un exposé entièrement
-bouclé. Il s’agit simplement d’un document de travail (qui vient
-compléter le texte initial du projet) et qui se donne pour très modeste
-objectif :
+En tant que modèle consacré à la représentation du texte, la Text Encoding Initiative (TEI) n’est pas principalement orientée vers la description des objets patrimoniaux. Néanmoins dans différents contextes les éditeurs peuvent avoir à faire avec des manuscrits ou des textes inscrits sur des supports qui présentent des qualités matérielles et physiques. Par ailleurs, la TEI a souvent été mobilisée en histoire de l’art dans des projets pionniers (Château-Dutier 2021). Afin de faciliter la description des objets patrimoniaux, le Consortium de la TEI a récemment introduit un nouvel élément `<object>` dont la création était réclamée depuis plusieurs années (Cojannot-Leblanc Chateau-Dutier 2015, TEIC/TEI Issue #327, Raybuck et Stanley 2019). Son modèle de contenu s’inspire de celui de l’élément `<msDesc>`. S’il s’avère très riche et approprié pour la description des manuscrits et de leurs caractéristiques matérielles (support, reliure, écritures, enluminure et ornementation, montage des cahiers, etc.) ce modèle manque de généricité pour couvrir l’ensemble des besoins communs des historiens de l’art. Or, certaines entreprises d’édition numérique peuvent avoir besoin de documenter des œuvres au même titre qu'elles traitent les personnes, les organisations ou les lieux en ayant recours aux entités définies dans le module *namesdates* de la TEI.
 
-  - 1° d’évoquer, en les résumant très brièvement, l’apport de
-    quelques travaux antérieurs (et fort rares) sur Ledoux écrivain.
-    Ces études alternent ou combinent plusieurs types d’approches :
-    historique (ou génétique), thématique (études des différents
-    discours et disciplines embrassés par l’architecte), générique
-    (études des formes, des genres), stylistique ou rhétorique.
+## Contexte du projet
 
-  - 2° afin de tracer, sans exhaustivité, de grandes pistes
-    d’exploration du texte ; et de rassembler quelques questions,
-    pour servir d’amorce à nos discussions.
+Le travail que nous présentons a notamment été réalisé dans le cadre du projet d’édition de *L’Architecture considérée sous le rapport de l’Art des mœurs et de la législation* de Claude-Nicolas Ledoux qui est l’ouvrage à la fois le plus célèbre et le plus énigmatique de toute l’architecture moderne européenne. L’illustration de l’ouvrage est remarquable tant par l’ambition que la qualité de sa gravure. Des cinq tomes annoncés par le prospectus, seul le premier volume a paru en 1804. Mais Ledoux travailla durant trente années à l’illustration de l’ensemble, ce dont témoignent les deux autres volumes édités par l’architecte Ramée en 1847, et un important recueil factice conservé à la BHVP aujourd’hui numérisé, ainsi que diverses planches isolées souvent restées inédites.
 
-## Coup d’œil sur les études littéraires du texte de Ledoux jusqu’à aujourd’hui
+Si la célébrité du texte de 1804 a justifié quelques réimpressions, *L’Architecture* de Ledoux n’a jamais encore fait l’objet d’une véritable édition scientifique. En outre l’intégralité de son projet éditorial n’a pu être étudiée faute d’avoir rassemblé et analysé de manière systématique l’ensemble des planches (près de 500) et plusieurs manuscrits qui témoignent de la préparation de l’entreprise (prospectus, brouillons pour le développement, correspondance). Nous nous sommes proposés d’entreprendre une édition critique numérique destinée à élucider les différents niveaux de lecture du texte de 1804, en associant l’approche littéraire à l’histoire des idées politiques et artistiques du XVIIIe siècle. Afin de rendre compte de la dialectique nouvelle introduite par Ledoux entre le texte et l’image, le matériel iconographique fait l’objet d’un inventaire systématique qui suppose l’identification des dessins préparatoires et gravures dans les collections publiques et privées, et d’une étude approfondie des différents états des planches afin d’affiner la chronologie de la préparation de l’ouvrage. Il s’agit donc de restituer le travail inachevé de Ledoux et toute sa morale et didactique sur le rôle de l’architecture tant dans la société de l’Ancien régime que pour la nouvelle République.
 
-On pourrait dire que l’ambition littéraire de Ledoux, sa posture
-d’écrivain, le travail d’écriture de son texte, furent reconnus dès
-le départ, par les premiers lecteurs de l’*Architecture*… à commencer
-par son premier biographe, l’architecte Cellerier, qui parlait du “style
-magique et poétique” de Ledoux. Mais un tel hommage fut d’abord
-exceptionnel car les lecteurs de Ledoux retournèrent plutôt cette
-ambition contre lui, pour déconsidérer le texte au profit des seules
-gravures. On reprochait à la plume de Ledoux deux défauts principaux -
-la lourdeur (rhétorique) et l’obscurité (le symbolisme, le cryptage du
-sens). C’est seulement depuis une quarantaine d’années que la recherche
-s’est penchée sur le texte de l’*Architecture* pour le considérer en
-lui-même (“dans sa vie propre”, pour reprendre l’expression de Béatrice
-Didier) et dans son histoire propre, et non plus uniquement comme simple
-réservoir de citations isolées, ou du seul point de vue d’un discours
-sur l’architecture.
+Le projet présente donc des défis importants en matière de description des gravures puisqu’il s’agit de rendre compte de phénomènes éditoriaux complexes et de documenter les états tout en les mettant en rapport avec l’Œuvre projeté par l’architecte. Dans son état actuel, le modèle de contenu de l’élément `<object>` ne permet ni de traiter des gravures ni des édifices, dont la description peut reposer sur des modèles documentaires spécialisés en histoire de l’art et en bibliographie. Deux ontologies, compatibles entre elles, dominent ces deux domaines. D’une part le modèle conceptuel de référence du CIDOC pour les objets muséaux (CIDOC-CRM), d’autre part les Fonctionnalités requises des notices bibliographiques (FRBR) et le Modèle de référence des bibliothèques (LRM), dont les déclinaisons orientées objet permettent l’utilisation avec CIDOC-CRM. 
 
-### Des éléments pour une étude de l’histoire du texte de Ledoux: Michel Gallet, *Claude-Nicolas Ledoux , 1736-1806*, Paris, Picard, 1980
+Plusieurs formats XML implémentent ces modèles abstraits comme Lido pour l’échange de notices muséales, et RDA pour la description bibliographique notamment. Si Lido couvrait bien les besoins documentaires pour la description des gravures, il réclamait la mise au point de règles internes pour renseigner les états. Surtout, c’est plutôt un format d’échange qu’un format d’édition. Quant à RDA, le format n’est pas ouvert et sa déclinaison dans le domaine français en Intermarc de nouvelle génération pour la description des gravures n’a pas encore été complètement achevée. Quoiqu’il en soit, le projet consistant à proposer une édition de l’œuvre de Ledoux, il nous paraissait plus adéquat de ne pas séparer la description des gravures de l’édition du texte. L’image occupe en effet une place essentielle dans le projet éditorial de l’auteur. C’est la raison pour laquelle nous avons choisi de travailler sur une extension du modèle de contenu de l’élément `<object>` afin que la TEI puisse mieux être mise à profit en histoire de l’art.
 
-Que savons-nous de l’histoire du texte du premier tome de
-*L’Architecture* que Ledoux publie en 1804 ? Finalement bien peu de
-choses – dont l’essentiel fut exposé par Michel Gallet, dans son livre
-et les riches annexes qui l’accompagnent. Depuis cette grande étude
-historique et archivistique, rien de fondamentalement nouveau n’a été
-dit ni découvert sur la genèse mal connue du texte.
+## Principes de développements
 
-  - On sait que le texte est un élément “secondaire”, du projet de
-    Ledoux, du moins dans ses prémices. Ledoux conçoit d’abord, dès
-    les années 1770, un recueil de planches (dont on connaît plusieurs
-    versions) et **c’est seulement dans un deuxième temps**, sans
-    doute en partie à l’occasion de son emprisonnement sous la Terreur
-    en 1794, qu’il décide d’adjoindre un texte à ces gravures.
+Depuis les développements introduits par la Proposal 5 de la Text encoding initiative, les chercheurs des disciplines historiques disposent de plusieurs éléments pour décrire de manière détaillée les entités telles que les personnes, les lieux ou les groupes (Driscoll 2006, Wittern, Ciula et Tuohy 2009). Ces additions permettent d’utiliser la TEI pour des travaux prosopographiques ou onomastiques soit dans le cadre de rétroconversion d’ouvrages spécialisés soit pour la préparation de répertoires et d’index qui sont liés à des éditions. 
 
-  - Il semble aussi que le texte ait eu pour premier but d’assurer sa
-    défense et de restaurer son image en ces temps d’instabilité
-    politique, en donnant notamment des gages de son dévouement au
-    bien public et à la nation (comme en témoignent certains mémoires
-    et écrits que Ledoux adressait aux autorités depuis sa prison et
-    qui pourraient constituer soit des premiers états du texte, soit
-    des écrits contemporains et proche, dans l’esprit, de son grand
-    projet) .
+Le modèle de contenu de ces entités historiques est destiné à recevoir un ensemble de déclaration ou d’assertions qui appartiennent à trois groupes conceptuels : les traits, les états et les événements parmi lesquels se classent les sous-éléments. Il s’agit d’un modèle abstrait particulièrement riche et expressif pour prendre en charge l’information historique. Conceptuellement, le modèle est compatible avec l’ontologie CIDOC-CRM qui est une ontologie orientée événement comme l’ont montré les travaux du SIG ontologie.
 
-  - C’est donc sans doute progressivement que le texte gagne une
-    dimension beaucoup plus ambitieuse : à savoir porter une véritable
-    philosophie de l’art et de l’architecture à partir de la figure du
-    génie entravé.
+La personnalisation que nous proposons essaye autant que possible de réutiliser les structures déjà adoptées pour les modèles de contenu des personnes, des lieux ou des organisations afin d’étendre celui de l’élément `<objet>`. Rien ne justifiait que le nouvel élément ne dispose pas des trois éléments génériques `<state>`, `<event>` et `<trait>` disponibles pour les autres entités. Aussi, lorsque de nouveaux éléments ont été créés, ceux-ci ont suivi des modèles comparables à ceux généralement adoptés dans la TEI pour leur nommage, leur organisation dans le système de classe ou leur modèle de contenu. De la même manière, les nouveaux éléments héritent des classes génériques définies par la TEI pour les attributs.
 
-  - On ne connaît aucun manuscrit de ce texte, ni aucune version
-    antérieure ou préparatoire. Par contre, certains textes qui nous
-    restent de la correspondance de Ledoux, comme par exemple ses
-    échanges avec l’intendant de Franche-Comté, Lacorée, à propos de
-    la salle de spectacle de Besançon (qui datent de 1775)
-    entretiennent de forts échos avec les passages que Ledoux
-    consacre, dans le livre de 1804, à ce théâtre.
+Afin de garantir la compatibilité du nouveau modèle de contenu de l’élément `<object>` avec le CIDOC-CRM, les choix de modélisation que nous avons opérés ont été guidés par une modélisation préalable avec cette ontologie en s’inspirant de modèle d’application comme LinkedArt. Ce travail, nous a amené à identifier plusieurs améliorations ponctuelles des sous-éléments disponibles dans `<person>`, `<place>` et `<org>` pour mieux prendre en charge, par exemple, la description des événements.
 
-### La plume de Ledoux : un article pionnier de Béatrice Didier (1991) : Béatrice Didier, « Ledoux écrivain », dans *Écrire la Révolution 1789-1799*, 1991, p.181‑91.
+## Description des divergences et  des nouveautés
 
-Cette étude de Béatrice Didier est la première à avoir envisagé le texte
-de Ledoux comme un objet littéraire. Elle a le mérite d’avoir exposé, en
-quelques pages, plusieurs des principaux problèmes littéraires que
-posent la lecture du texte de Ledoux.
+Voici la présentation des principales modifications introduites pour l’élément objet dont certaines peuvent par ailleurs inspirer des adaptations pour les autres entités historiques (person, places, org, msDesc). 
 
-  - **Le problème du statut du texte.** Le rattachant (dans une
-    lecture *a posteriori*) à la lignée des mémoires d’artistes
-    (Berlioz…), Béatrice Didier soulève une question fondamentale me
-    semble-t-il : lirait-on Ledoux s’il n’était pas l’architecte qu’il
-    fut ?
+Dans le domaine de l’histoire de l’art et du patrimoine culturel, la description des artefacts ne peut pas toujours reposer sur un nom ou un titre. En effet, certains artefacts culturels appartiennent plutôt à des séries ou des ensembles qui sont catalogués par l’utilisation de catégories. Dès lors, les sous-éléments `<objectName>` forgés sur le même modèle que `<placeName>`, `<persName>` et `<orgName>` ne sont pas suffisants pour rendre compte d’un objet. Le nouvel élément `<objectIdentifier>` introduit au moment de la création de l’élément `<object>` ne résout pas complètement la question car il permet seulement de fournir des indications de localisation et d’identification comme on le fait actuellement dans la TEI pour la description des manuscrits à l’intérieur de `<msDesc>`.
 
-  - **Le problème du rapport texte / image et texte / bâti**. Béatrice
-    Didier souligne que le principal intérêt du texte de Ledoux serait
-    dans ce “nouement du dessin et de l’écriture” dont elle étudie
-    rapidement quelques procédés. Une articulation qu’elle retrouve
-    ensuite à un autre niveau, entre le bâti et le texte. Béatrice
-    Didier émet l’hypothèse intéressante que, dans le contexte de la
-    fameuse “architecture parlante”, le texte pléthorique de Ledoux
-    viendrait absorber le trop plein de sens que le bâti ne peut à lui
-    seul véhiculer.
+Nous avons donc jugé bon d’introduire un nouvel élément pour regrouper les informations de classification qui suit les pratiques adoptées dans le monde muséal avec Lido ou dans LinkedArt. Lido distingue la catégorie d’un objet de sa classification, toutefois cette distinction n’est pas évidente. Dans LinkedArt, on utilise une description à deux niveaux qui permet de préciser la nomenclature en utilisant un type et une classification. Après avoir dans un premier temps songé à un nouvel élément `<objectClassification>` qui aurait pu contenir des sous-éléments `<classification>` et `<category>`, nous avons finalement opté pour l’utilisation d’un élément générique `<classification>` contenant des sous-éléments `<category> `comme cette structure peut également s’avérer utile pour la description des personnes, des lieux et des organisations. Les sous-éléments `<category>` peuvent au besoin être typés pour répliquer le typage à deux niveaux utilisés par LinkedArt.
 
-  - **Le problème de l’inscription du texte de Ledoux dans des
-    traditions/contextes littéraires**. Béatrice Didier dégage très
-    rapidement quelques grandes lignes de forces de l’écriture de
-    Ledoux, tant sur le plan thématique que stylistique : le motif du
-    récit de voyage ; le thème du génie entravé; la méditation sur
-    l’histoire et l’avenir de l’humanité; la puissance de
-    l’imagination ; mais aussi le poids de la rhétorique classique.
-    En tirant peut-être un peu vite Ledoux du côté du romantisme,
-    Béatrice Didier met à jour trois éléments qui nous semblent
-    intéressants :
-      - L’ambition de l’artiste total, qui organise, dans son texte,
-        la fusion des arts et des disciplines, dans un surplomb qui
-        rapproche parfois Ledoux d’un Volney ou d’un Chateaubriand.
-      - Les contradictions d’une écriture travaillée en même temps par
-        deux forces opposées : d’un côté la vision de l’avenir, portée
-        par la projection de l’imagination, d’un autre côté les outils
-        désuets de la rhétorique classique, de l’éloquence de collège.
+Dans sa version actuelle, le modèle de contenu de `<object>` permet de décrire la reliure, le support ou encore l’écriture mais dans le contexte de la description d’objets culturels, ces modèles de contenus ne sont pas entièrement adaptés à la description des objets architecturaux ou des œuvres d’art. L’introduction d’un nouvel élément `<mediumDesc>` nous a paru compléter utilement le modèle de contenu de `<object>`. Cet élément conçu sur le modèle de `<physDesc>`, `<bindDesc>` ou `<supportDesc>`, peut contenir alternativement une description libre ou une description structurée avec un nouveau sous-élément `<medium>` qui est répétable et qui peut être lié à des vocabulaires.
 
-      - Une contradiction qu’elle retrouve, à un autre niveau, entre les multiples discours que l’architecte, selon elle,
-        tenterait, avec difficulté, de faire tenir ensemble. Elle souligne ainsi la “situation inconfortable de l’écrivain qui
-        ne cesse de changer de plan … qui oscille entre plusieurs types de discours assez difficilement conciliables”...
+Les événements résident au cœur du modèle CIDOC-CRM qui considère la vie des objets culturels. Un artefact peut être affecté par divers événements qui conduisent à sa fabrication, sa transformation ou sa restauration, voire sa destruction ou encore son déplacement. Aussi, il nous a paru possible de rendre le modèle de contenu de l’élément `<event>` beaucoup plus cohérent avec CIDOC-CRM moyennant quelques ajustements simples. Dans l’ontologie CIDOC-CRM, les événements mettent en présence des acteurs, des lieux et des entités temporelles. Pour suivre ce modèle, nous avons créé un sous-élément `<participant>` pour regrouper des acteurs avec un rôle `<role>`, et rendu disponible les éléments `<placeName>` et `<date>`. Ces ajouts ne changent rien à l’utilisation habituelle de l’élément mais permettent une utilisation plus expressive d’un point de vue historique.
 
-### Le sens et l’unité du style de Ledoux : un chapitre de Daniel Rabreau : “Ledoux écrivain” (2000)
+Les choix opérés pour l’extension du modèle de contenu de l’élément `<object>` que nous proposons ont été directement informés par une modélisation avec CIDOC-CRM. Comme ce modèle conceptuel de référence peut être utilisé de manière différente pour modéliser certains événements, nous avons choisi de nous baser sur deux utilisations récentes dans le domaine de l’histoire de l’art et du patrimoine (LinkedArt et SARI). Ainsi, il était facilement possible de proposer des mapping du nouvel élément objet vers CIDOC-CRM ainsi qu’une conversion vers RDF en XQuery.
 
-Dans sa grande monographie sur Ledoux\[1\], Daniel Rabreau consacre un
-chapitre conclusif au livre de 1804. Une partie de ce chapitre (qu’il
-intitule, justement “Ledoux écrivain”) se penche plus précisément sur la
-question de l’écriture, sur le recours à la fiction et sur le travail du
-style.
+En vue de simplifier la conversion vers RDF, nous suggérons l’emploi d’un jeu d’attributs qui s’inspire des exemples mentionnés dans les *Guidelines* pour la description des relations ou l’utilisation de CIDOC-CRM dans la documentation des éléments pour faire référence à des vocabulaires ou des ontologies (https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-relation.html, https://tei-c.org/release/doc/tei-p5-doc/es/html/TD.html). Notre utilisation diffère par l’emploi de l’attribut @key pour le nom de l’entité.
 
-Ce qui est particulièrement Intéressant dans l’approche de Daniel
-Rabreau, c’est que l’écriture poétique de Ledoux, son style
-mythologique, l’éclectisme, voire l’obscurité de sa plume – qui posent,
-toutes une série de problèmes – sont pleinement intégrés au projet
-artistique total de Ledoux, au sein duquel ils trouvent leur solution.
-Pour le dire vite, l’écrivain et l’architecte ne sont pas séparables,
-mais c’est au contraire comme poète, comme “aède moderne”, que Ledoux
-peut donner forme à sa vision de l’architecte et de l’architecture.
-Comme si le travail de l’écriture était l’expression de la conception
-supérieure du projet architectural et artistique, de cette “religion de
-l’art”. Autrement dit, ce que nous rappellent les travaux de Daniel
-Rabreau, c’est que le style de Ledoux écrivain découle de ses idées sur
-l’architecture et l’art.
+## Conclusion
 
-Sous l’apparence de rhapsodie, il y a donc une profonde et formidable
-unité du style – c’est une autre leçon de ce chapitre. Cette unité
-tiendrait dans la mission assignée à l’écriture : à savoir, traduire,
-par tous les procédés possibles d’élévation, la hauteur des enjeux de
-l’art (le vaste champ embrassé par l’architecte qui touche à tous les
-arts, la réforme de la cité, l’enjeu du progrès humain…). Daniel Rabreau
-cite les moments où Ledoux revient sur sa propre poétique, pour mettre
-en évidence la conception de l’écriture (sans doute éminemment
-rhétorique) comme *exaltation, élévation, exagération….* Quelles que
-soient ses limites, le style de l’architecte véhicule une profonde
-philosophie de l’art.
+Comme vous l’aurez compris, nous avons privilégié une personnalisation simple qui respecte généralement le modèle de contenu des entités historiques de la TEI tout en préservant la rétrocompatibilité du modèle. L’ensemble de ces propositions ont fait l’objet d’une spécification en ODD et d’une documentation accessible en ligne. Des scripts de conversion vers CIDOC-CRM ont été rédigés en XQuery. De notre point de vue, cette personnalisation de la TEI nous paraît mieux servir les besoins de la TEI pour l’histoire de l’art mais pourraît aussi plus largement bénéficier aux modèles de contenus destinés à la description des manuscrits. Somme toute, les textes inscrits sont bel et bien des artefacts culturels, et les possibilités actuellement offertes par la TEI restent trop limitées pour la description des enluminures notamment. Nous invitons donc la communauté à engager une réflexion sur le modèle de contenu d’object en lien avec un travail sur la description des manuscrits.
 
-Une fois posée cette unité du style, Daniel Rabreau peut à nouveau
-déplier le spectre éclectique des tons, des genres, des registres qui
-traversent le livre. Ces pages, qui sont comme autant de petites
-explications de texte, sont les premières à proposer une esquisse
-d’étude générique et intertextuelle de Ledoux écrivain, et suggèrent
-combien il faut envisager sa plume à travers le jeu de réécriture des
-Anciens (épopée, tragédie, mais aussi idylle, églogue, satire…) comme
-des Modernes (avec des emprunts au roman de formation, à la littérature
-picaresque, ou encore au roman utopique...).
+## Bibliography
 
-### Le tissu fictionnel et narratologique de l*’Architecture* : une étude récente de Daniele Vegro (2019)
-
-Tout récemment, Daniele Vegro a proposé une analyse très stimulante du
-texte de Ledoux, qui est l’une des premières à se pencher sur la
-complexité des voix et des niveaux de fictions\[2\]. L’auteur tente de
-suivre, avec précision et sur toute la longueur du texte, les méandres
-narratologiques (dispersions et échos des voix du voyageur, du
-conducteur des travaux, de l’architecte surplombant...), les jeux
-d’emboîtements (récit de voyage, rêve, projections imaginaires…) et
-de mettre en évidence la tension, irréductible, entre une construction
-narrative et des structures dialogiques. En somme, l’objet d’étude reste
-*l’énigmatique*, (cette question fondamentale de l’obscurité, du
-cryptage, que tous les commentateurs de Ledoux ont forcément à
-considérer et qui est au cœur des analyses symboliques de Serge
-Conard\[3\] sur lesquels il faudra bien sûr s’attarder aussi) - mais
-Daniele Vegro montre comment cette énigme procède aussi et avant tout de
-l’agencement de la matière textuelle et discursive.
-
-## Quelques pistes pour les études en perspective : 
-
-Les travaux ici rapidement synthétisés (auxquels il faudrait ajouter
-l’article de Mona Ozouf), le montrent bien : ce qui fait du texte de
-Ledoux un objet si fascinant c’est avant tout cette multiplicité des
-plans que l’ambition de l’architecte tente de tenir ensemble : profusion
-des champs disciplinaires ; diversités des types de discours ; éventails
-des formes et des genres ; complexité des structures narratives et
-dialogiques…
-
-Pour ne s’en tenir qu’aux grands thèmes qui s’enchevêtrent dans
-l’*Architecture*, on mentionnera : l’histoire de l’architecture bien
-sûr, mais aussi le discours philosophique, le propos politique et
-économique, la dimension esthétique (dont le problème du rapport à
-l’antique), la dimension symbolique (voire maçonnique), le rôle de
-imaginaire….
-
-Le projet d’édition numérique de collaborative est parti du constat
-qu’il fallait des chercheurs de multiples horizons et disciplines pour
-déchiffrer ce texte “hiéroglyphique” (D. Rabreau) ; et qu’il fallait les
-tenir ensemble pour maintenir l’unité (même problématique) de ce texte.
-La journée d’étude organisée en 2018 avait déjà expérimenté cette
-nécessaire et fructueuse collaboration multiple (historiens de
-l’architecture, historiens de la littérature, historiens des idées,
-responsables patrimoniaux…) – d’autant plus féconde que nous nous étions
-concentrés sur un extrait précis de l’ouvrage : le tableau conclusif de
-la Forge à Canon\[4\].
-
-Au-delà de cet éventail des champs que nous aurons à mobiliser, on peut,
-à partir du rapide bilan des études présentées plus haut, distinguer
-plusieurs directions, plusieurs types de questions, pour l’exploration
-du texte :
-
-  - **Les questions relatives à l’histoire et à la genèse du texte:**
-    en quoi l’étude (et peut être la découverte) d’autres écrits
-    (mémoires, correspondance…) de Ledoux peut-elle nous aider à
-    comprendre la genèse de son texte? Comment s’articule le texte
-    avec le prospectus, publié quelques années plus haut, et qui
-    annonce l’ensemble du projet ? est-il possible d’affiner, par
-    l’analyse d’indices internes au texte, la datation du texte ou
-    de certaines de ces parties ?
-
-  - **Les questions relatives aux sources, aux influences** qui
-    travaillent le texte.
-
-<span class="underline">La rhétorique et le style :</span> on s’interrogera sans doute, au cours du travail collectif, sur le rôle
-précis (et de toute façon fondamental) de la rhétorique chez Ledoux
-(dans ses procédés, ses héritages). Quelle sont les sources oratoires de
-Ledoux, ses lectures, sa formation dans ce domaine ? Quelle part y prend
-la rhétorique de collège ? Quelle influence (ou non) son texte, rédigé
-en grande partie pendant la terreur, a-t-il pu subir de l’éloquence de
-la décennie révolutionnaire ? Comment comprendre les apparentes
-contradictions entre le recours à des procédés éculés (mais le sont-ils
-vraiment, étant donnée la façon déroutante dont il les manie ?) et
-l’inventivité créatrice d’une langue (néologismes, créations
-langagières…) ?
-
-<span class="underline">La sociabilité littéraire de Ledoux :</span> la
-question de la rhétorique soulève aussi celle des fréquentations et
-sociabilités littéraires de Ledoux: on compte, parmi ses amis, au moins
-deux professeurs de rhétorique, Jacques Delille et Luce de Lancival.
-Plus généralement, quel rôle ont pu jouer ces relations littéraires dans
-l’écriture de Ledoux, dans sa formation et sa culture littéraire ? (on
-pense ici notamment à la communication qu’Hugues Marchal avait proposé,
-lors de la journée d’étude de juin 2018, sur les liens entre Ledoux de
-le poète Delille).
-
-  - **Les questions relatives à l’intertextualité:**
-
-Comment fonctionne le système de réécritures, qui est manifestement un
-des procédés fondamentaux de l’écriture de Ledoux ? À quels genres, à
-quels auteurs emprunte-t-il ? Quels sont ses rapports aux Anciens, à
-l’Antique (mythologie, littérature antique..) et aux Modernes ?
-
-  - **Les questions relatives à la structure, à la composition** du
-    texte et plus généralement du livre.
-
-Quels types de trajets l’ouvrage dessine-t-il ? Comment se donnent à
-voir les tensions entre unité et éclatement du texte ? Dans quelle
-mesure ces tensions interrogent-elles la question complexe de l’utopie
-(livresque et architecturale) ?
-
-## Complément bibliographique sur Ledoux écrivain 
-
-- Moulin, Fabrice, « Bâtir à l’antique ou écrire à l’antique. La
-  présentation du théâtre de Besançon dans *L’Architecture
-  considérée...* de C. N. Ledoux », *Les Arts du spectacle et la
-  référence antique*, Le dix-huitième
-  siècle, Paris, Classiques Garnier, p. 275-288.
-
-- Moulin, Fabrice, « La ventriloquie de l’architecte: énonciation et
-  esthétique dans L’Architecture... de C.-N. Ledoux ». In *Autour de
-  Ledoux: architecture, ville et utopie*, édité par Chouquer, Gérard et
-  Daumas, Jean-Claude, Presses universitaires de Franche-Comté, 2006.
-
-- Rabreau, Daniel, « De l’art poétique de Ledoux, Sensualisme, images emblématiques et métamorphoses de la pierre », *Les arts des Lumières. Essais sur l’architecture et la peinture en Europe au XVIII<sup>e</sup> siècle*, Annales du centre Ledoux, nouvelle série, 2019, p. 54‑88. Article disponible en ligne : <https://www.ghamu.org/wp-content/uploads/2019/03/D.-Rabreau-De-lart-poétique-de-Ledoux.pdf>
-
-- Turner, Paul V, « Claude-Nicolas Ledoux and the Hypnerotomachia
-  Poliphili ». *Text and Image* 14, n<sup>o</sup> 1-2 (1998): 203-14.
-
-  
-
----
-
-
-
-1.  Rabreau, Daniel. *Claude-Nicolas Ledoux (1736-1806)*, Bordeaux,
-    Librairie de l’architecture et de la ville, 2000.
-2.  Vegro, Daniele, « Le voyageur au pays des merveilles. Niveaux de
-    fiction dans L’Architecture de Ledoux ». *Les arts des Lumières.
-    Essais sur l’architecture et la peinture en Europe au XVIII<sup>e</sup> siècle*,
-    Annales du centre Ledoux, nouvelle série, 2019, p. 54‑88. Article
-    disponible en ligne :
-    https://www.ghamu.org/wp-content/uploads/2019/03/D.-Vegro-Le-voyageur-au-pays-des-merveilles.pdf
-3.  Voir par exemple, Conard, Serge. « Pour une herméneutique de
-    l’Architecture... de C.-N. Ledoux », in *Soufflot et
-    l’architecture des Lumières (actes du colloque de Lyon, juin
-    1980)*, Paris, 1980/
-4.  « Autour de Ledoux : l’architecte, le livre et l’écrivain au
-    tournant des lumières » – Journée d’étude de la Vallée-aux-Loups,
-    Maison de Chateaubriand (Châtenay-Malabry) – 3 juillet 2018 (org.
-    Dominique Massounie, Emmanuel Château-Dutier, Fabrice Moulin).
+- Allemang, Dean, James A Hendler, et Fabien Gandon. 2020. *Semantic Web for the Working Ontologist: Effective Modeling for Linked Data, RDFS, and OWL*.
+- « An <object> Element · Issue #327 · TEIC/TEI ». s. d. GitHub. Consulté le 29 mai 2021.[ https://github.com/TEIC/TEI/issues/327](https://github.com/TEIC/TEI/issues/327).
+- Bekiari, Chryssoula, George Bruseker, Martin Doerr, Christian-Emil Ore, Stephen Stead, et Athanasios Velios. 2021. « Definition of the CIDOC Conceptual Reference Model ». version 7.1.1. CIDOC CRM Special Interest Group.[ http://www.cidoc-crm.org/version/version-7.1.1](http://www.cidoc-crm.org/version/version-7.1.1).
+- Burnard, Lou. 2013. « Resolving the Durand Conundrum ». *Journal of the Text Encoding Initiative*, no 6 (septembre).[ https://doi.org/10.4000/jtei.842](https://doi.org/10.4000/jtei.842).
+- ———. 2020. « What Is TEI Conformance, and Why Should You Care? » *Journal of the Text Encoding Initiative*, no Issue 12 (mai).[ https://doi.org/10.4000/jtei.1777](https://doi.org/10.4000/jtei.1777).
+- Carboni, Nicola. 2017. *Documentation sémantique d’objets patrimoniaux à travers des représentations visuelles et iconographiques*.[ https://hal.archives-ouvertes.fr/hal-01526781](https://hal.archives-ouvertes.fr/hal-01526781).
+- Carboni, Nicola, et Livio de Luca. 2017. « Towards a Semantic Documentation of Heritage Objects through Visual and Iconographical Representations ». *International Information & Library Review* 49 (3): 207‑17.[ https://doi.org/10.1080/10572317.2017.1353374](https://doi.org/10.1080/10572317.2017.1353374).
+- Ciotti, Fabio, et Francesca Tomasi. 2016. « Formal Ontologies, Linked Data, and TEI Semantics ». *Journal of the Text Encoding Initiative*, no 9 (septembre).[ https://doi.org/10.4000/jtei.1480](https://doi.org/10.4000/jtei.1480).
+- Ciula, Arianna, et Øyvind Eide. 2014. « Reflections on cultural heritage and digital humanities: modelling in practice and theory ». In *Proceedings of the First International Conference on Digital Access to Textual Cultural Heritage*, 35‑41. DATeCH ’14. New York, NY, USA: Association for Computing Machinery.[ https://doi.org/10.1145/2595188.2595207](https://doi.org/10.1145/2595188.2595207).
+- Clavel, Thierry. 2019. « FRBR, RDA, BibFrame : comment prendre en compte ces nouveaux standards ? » In *Réinformatiser une bibliothèque*, édité par Anna Svenbro. La Boîte à outils. Villeurbanne: Presses de l’enssib.[ http://books.openedition.org/pressesenssib/6742](http://books.openedition.org/pressesenssib/6742).
+- « DOnnées Patrimoniales HEritage DAta ». 2020. Répertoire canadien d’information sur le patrimoine.[ https://chin-rcip.github.io/collections-model/](https://chin-rcip.github.io/collections-model/).
+- Driscoll, M J. 2006. « XML Markup of Biographical and Prosopographical Data ». In *TEI Day in Kyoto 2006*, 75‑83. Kyoto Institute for Research in Humanities: Kyoto University.[ http://coe21.zinbun.kyoto-u.ac.jp/tei-day/TEIDayKyoto2006.pdf](http://coe21.zinbun.kyoto-u.ac.jp/tei-day/TEIDayKyoto2006.pdf).
+- Eide, Øyvind. 2014. « Ontologies, Data Modeling, and TEI ». *Journal of the Text Encoding Initiative*, no 8 (décembre).[ https://doi.org/10.4000/jtei.1191](https://doi.org/10.4000/jtei.1191).
+- Guillem, Anais, George Bruseker, et Paola Ronzino. 2017. « Process, Concept or Thing? Some Initial Considerations in the Ontological Modelling of Architecture ». *International Journal on Digital Libraries* 18 (4): 289‑99.[ https://doi.org/10.1007/s00799-016-0188-0](https://doi.org/10.1007/s00799-016-0188-0).
+- Heath, Tom, et Christian Bizer. 2011a. *Linked Data: Evolving the Web into a Global Data Space*. 1. ed. Synthesis Lectures on the Semantic Web: Theory and Technology 1. San Rafael, Calif.: Morgan & Claypool.
+- ———. 2011b. « Linked Data: Evolving the Web into a Global Data Space ». *Synthesis Lectures on the Semantic Web: Theory and Technology* 1 (1): 1‑136.[ https://doi.org/10.2200/S00334ED1V01Y201102WBE001](https://doi.org/10.2200/S00334ED1V01Y201102WBE001).
+- Jones, Ed, et Michele Seikel, éd. 2016. *Linked data for cultural heritage*. An ALCTS monograph. Chicago: ALA Editions, an imprint of the American Library Association.
+- « Linked Art ». s. d. Consulté le 2 avril 2020.[ https://linked.art/](https://linked.art/).
+- Newbury, David. s. d. « LOUD: Linked Open Usable Data and Linked.Art », 11.
+- Ore, Christian-Emil, et Øyvind Eide. 2009. « TEI and cultural heritage ontologies: Exchange of information? » *Literary and Linguistic Computing* 24 (2): 161‑72.[ https://doi.org/10.1093/llc/fqp010](https://doi.org/10.1093/llc/fqp010).
+- Øyvind, Eide. 2019. « Ontologies and Data Modeling ». In *Shape of Data in Digital Humanities: Modeling Texts and Text-Based Resources.*, édité par Julia Flanders et Fotis Jannidis. Routledge.
+- Raybuck, Suzanne Michelle, et Sarah C. Stanley. 2019. « An Exploration of <object> using Antarctic Artifacts ». In .[ https://gams.uni-graz.at/o:tei2019.113](https://gams.uni-graz.at/o:tei2019.113).
+- « Swiss Art Research Infrastructure (SARI) ». s. d. Consulté le 4 mars 2021.[ https://swissartresearch.net/](https://swissartresearch.net/).
+- TEI Consortium. 2021. « Guidelines for Electronic Text Encoding and Interchange, P5 ». 2021.[ https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html).
+- Wittern, Christian, Arianna Ciula, et Conal Tuohy. 2009. « The making of TEI P5 ». *Literary and Linguistic Computing* 24 (3): 281‑96.[ https://doi.org/10.1093/llc/fqp017](https://doi.org/10.1093/llc/fqp017).
+- Wood, David, Marsha Zaidman, Luke Ruth, et Michael Hausenblas. 2014. *Linked data: structured data on the Web*. Shelter Island, NY: Manning.
