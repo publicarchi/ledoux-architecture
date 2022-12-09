@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Appel à communication pour le colloque de juin 2023"
-date: 2023-12-31
+date: 2022-12-08
 categories: articles
-
 ---
 
 # Claude-Nicolas Ledoux dans le texte : <br/>Lectures de L’architecture considérée sous le rapport de l’art, des moeurs et de la législation (1804)
