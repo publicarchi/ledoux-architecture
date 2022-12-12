@@ -70,5 +70,5 @@ Mais c’est aussi le rapport que l’architecte entretient avec l’Antiquité 
 - Marianne Cojannot-Le Blanc, professeure, Université Paris-Nanterre
 - Michel Delon, professeur émérite, Université Paris-Sorbonne
 - Colas Duflo, professeur, Paris-Nanterre, IUF
-- Hugues Marchal, professeur-assistant, Université de Bâle, IUF
+- Hugues Marchal, professeur, Université de Bâle, IUF
 - Élise Pavy-Guilbert, maîtresse de conférences, Université Bordeaux-Montaigne, IUF
