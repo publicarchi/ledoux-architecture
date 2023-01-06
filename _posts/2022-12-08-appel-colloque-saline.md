@@ -69,6 +69,7 @@ Mais c’est aussi le rapport que l’architecte entretient avec l’Antiquité 
 - Emmanuel Chateau-Dutier, professeur agrégé, Université de Montréal
 - Marianne Cojannot-Le Blanc, professeure, Université Paris-Nanterre
 - Michel Delon, professeur émérite, Université Paris-Sorbonne
-- Colas Duflo, professeur, Paris-Nanterre, IUF
+- Colas Duflo, professeur, Université Paris-Nanterre, IUF
+- Ségolène Le Men, professeure émérite, Université Paris-Nanterre, IUF 
 - Hugues Marchal, professeur, Université de Bâle, IUF
 - Élise Pavy-Guilbert, maîtresse de conférences, Université Bordeaux-Montaigne, IUF
