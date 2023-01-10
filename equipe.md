@@ -16,14 +16,11 @@ permalink: /equipe/
 
 La composition de l’équipe Annotateurs associe des spécialistes issus des diverses disciplines concernées par la recherche. La liste ci-dessous comprend les chercheurs ayant déjà confirmé leur participation et leur intérêt pour le projet.
 
--   **Daniel Rabreau**, histoire des arts et de l’architecture au XVIII<sup>e</sup> siècle, professeur émérite, Panthéon-Sorbonne
 
 -   **Michel Delon**, littérature et histoire des idées au siècle des Lumières, professeur émérite, Sorbonne Université
 
 - **Basile Baudez**, histoire de l’architecture au XVIII<sup>e</sup> siècle, Assistant Professor, Princeton University
  
--   **Stéphane Pujol**, littérature et philosophie au XVIII<sup>e</sup> siècle, professeur, Université Toulouse – Jean-Jaurès
-
 -   **Arnaud Skornicki**, histoire du droit, de l’administration et des idées politiques au XVIII<sup>e</sup> siècle, maître de conférences, Université Paris-Nanterre, Institut des sciences du politique
 
 -   **Marie-Luce Pujalte-Fraysse**, histoire de l’architecture au XVIII<sup>e</sup> siècle, maîtresse de conférences, Université de Poitiers, Criham
@@ -34,7 +31,7 @@ La composition de l’équipe Annotateurs associe des spécialistes issus des di
 
 -   **Hugues Marchal**, littérature moderne française, dialogue littérature et sciences, professeur assistant, Université de Bâle, membre honoraire de l’Institut universitaire de France
 
--   **Elise Pavy-Guibert,** littérature française du XVIII<sup>e</sup> siècle, université de Bordeaux - Montaigne.
+-   **Elise Pavy-Guibert,** littérature française du XVIII<sup>e</sup> siècle, université de Bordeaux - Montaigne. Membre de l'Institut universitaire de France
 
 -   **Vicenzo De Santis,** littérature et théâtre des Lumières et sous l’Empire, Universita degli studi di Salerno
 
